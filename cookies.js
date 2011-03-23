@@ -1,4 +1,6 @@
 var cookies = (function() {
+	//TODO: currently not functioning in Chrome
+
 	var defaultDurationdays = 7,
 	cookie = function(name, value, days) {
 		var date = new Date(),
